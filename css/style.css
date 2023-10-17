@@ -3,6 +3,8 @@
   margin: 0 auto;
   text-align: center;
   padding: 20px;
+  background: url(../imgs/bg.jpg) no-repeat center ce;
+  background-size: cover;
 }
 .container h2 {
   color: #3498db;
