@@ -7,94 +7,46 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Mis camino en Desarrollo Web Frontend</h2>
-        <ul class="progress-list">
-            <li> HTML
-                <ul class="progress-sublist">
-                    <li><input type="checkbox">Subelemento 1</li>
-                    <li><input type="checkbox">Subelemento 2</li>
-                </ul>
+
+
+    <div class="class">
+        <p>Aprender los conceptos básicos de programación:</p>
+        <ul>
+            <li>
+                <div class="item-container">
+                    <span class="span-txt">Comprender los conceptos fundamentales de programación como variables, tipos de datos y estructuras de control.</span>
+                    <div>
+                        <center><span id="porcentajeSubtema1">0%</span></center>
+                        <input type="range" class="input-barra" step="10" id="subtema1" min="0" max="100" value="0" oninput="actualizarProgresoTotal()">
+                    </div>
+                </div>
             </li>
-            <li> CSS
-                <ul>
-                    <li><input type="checkbox">Subelemento 1</li>
-                    <li><input type="checkbox">Subelemento 2</li>
-                </ul>
+            <li>
+                <div class="item-container">
+                    <span class="span-txt">Aprender los principios de la lógica de programación y la resolución de problemas.</span>
+                    <div>
+                        <center><span id="porcentajeSubtema2">0%</span></center>
+                        <input type="range" class="input-barra" step="10" id="subtema2" min="0" max="100" value="0" oninput="actualizarProgresoTotal()">
+                    </div>
+                </div>
             </li>
-            <li> Sass
-                <ul>
-                    <li><input type="checkbox">Subelemento 1</li>
-                    <li><input type="checkbox">Subelemento 2</li>
-                </ul>
-            </li>
-            <li>JavaScript
-                <ul>
-                    <li><input type="checkbox">Subelemento 1</li>
-                    <li><input type="checkbox">Subelemento 2</li>
-                </ul>
-            </li>
-            <li> Frameworks JavaScript
-                <ul>
-                    <li><input type="checkbox">Subelemento 1</li>
-                    <li><input type="checkbox">Subelemento 2</li>
-                </ul>
-            </li>
-            <li> Gestores de paquetes
-                <ul>
-                    <li><input type="checkbox">Subelemento 1</li>
-                    <li><input type="checkbox">Subelemento 2</li>
-                </ul>
-            </li>
-            <li> Preprocesadores CSS
-                <ul>
-                    <li><input type="checkbox">Subelemento 1</li>
-                    <li><input type="checkbox">Subelemento 2</li>
-                </ul>
-            </li>
-            <li> Control de versiones
-                <ul>
-                    <li><input type="checkbox">Subelemento 1</li>
-                    <li><input type="checkbox">Subelemento 2</li>
-                </ul>
-            </li>
-            <li> API REST
-                <ul>
-                    <li><input type="checkbox">Subelemento 1</li>
-                    <li><input type="checkbox">Subelemento 2</li>
-                </ul>
-            </li>
-            <li> Herramientas de automatización
-                <ul>
-                    <li><input type="checkbox">Subelemento 1</li>
-                    <li><input type="checkbox">Subelemento 2</li>
-                </ul>
-            </li>
-            <li> SEO
-                <ul>
-                    <li><input type="checkbox">Subelemento 1</li>
-                    <li><input type="checkbox">Subelemento 2</li>
-                </ul>
-            </li>
-            <li> Accesibilidad web
-                <ul>
-                    <li><input type="checkbox">Subelemento 1</li>
-                    <li><input type="checkbox">Subelemento 2</li>
-                </ul>
-            </li>
-            <li> Herramientas de depuración y pruebas
-                <ul>
-                    <li><input type="checkbox">Subelemento 1</li>
-                    <li><input type="checkbox">Subelemento 2</li>
-                </ul>
-            </li>
-            <li> Diseño web y UX/UI
-                <ul>
-                    <li><input type="checkbox">Subelemento 1</li>
-                    <li><input type="checkbox">Subelemento 2</li>
-                </ul>
+            <li>
+                <div class="item-container">
+                    <span class="span-txt">Aprender los principios de la lógica de programación y la resolución de problemas.</span>
+                    <div>
+                        <center><span id="porcentajeSubtema3">0%</span></center>
+                        <input type="range" class="input-barra" step="10" id="subtema3" min="0" max="100" value="0" oninput="actualizarProgresoTotal()">
+                    </div>
+                </div>
             </li>
         </ul>
+        <p>Progreso total: <span id="porcentajeTotal">0%</span></p>
+        <progress id="progresoTotal" max="100" value="0"></progress>
     </div>
+    
+    
+
+
+    <script src="/js/javaScript.js"></script>
 </body>
 </html>
