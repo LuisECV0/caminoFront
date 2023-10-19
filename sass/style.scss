@@ -11,13 +11,18 @@ $colorBarraProgreso: #2c356f;
     margin: 20px;
     padding: 20px;
     border: 1px solid $colorPrincipal;
+    border: 1px solid rgb(67, 71, 62);
+    padding: 0;
     p {
         color: $colorTexto;
         font-weight: bold;
+        background-color: #555d8c ;
     }
     ul {
         list-style-type: none;
         padding: 0;
+        margin-left: 10%;
+        margin-right: 5%;
         li {
             margin: 30px 30px 10px 0;
             display: flex;

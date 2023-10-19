@@ -8,14 +8,19 @@
   margin: 20px;
   padding: 20px;
   border: 1px solid #4c4eaf;
+  border: 1px solid rgb(67, 71, 62);
+  padding: 0;
 }
 .class p {
   color: #333;
   font-weight: bold;
+  background-color: #555d8c;
 }
 .class ul {
   list-style-type: none;
   padding: 0;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 .class ul li {
   margin: 30px 30px 10px 0;
