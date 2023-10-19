@@ -3,19 +3,16 @@
 function actualizarProgresoTotal1() {
     var subtema11 = parseInt(document.getElementById('subtema11').value);
     var subtema12 = parseInt(document.getElementById('subtema12').value);
-    var subtema13 = parseInt(document.getElementById('subtema13').value);
 
-    var promedio = parseInt((subtema11 + subtema12 + subtema13) / 3);
+    var promedio = parseInt((subtema11 + subtema12 ) / 2);
     document.getElementById('progresoTotal1').value = promedio;
 
     document.getElementById('porcentajeTotal1').innerText = promedio + "%";
     document.getElementById('porcentajeSubtema11').innerText = subtema11 + "%";
     document.getElementById('porcentajeSubtema12').innerText = subtema12 + "%";
-    document.getElementById('porcentajeSubtema13').innerText = subtema13 + "%";
 
     document.getElementById('subtema11').style.background = 'linear-gradient(to right, #354ab4 0%, #354ab4 ' + subtema11 + '%, #1e1e1e ' + subtema11 + '%, #1e1e1e 100%)';
     document.getElementById('subtema12').style.background = 'linear-gradient(to right, #354ab4 0%, #354ab4 ' + subtema12 + '%, #1e1e1e ' + subtema12 + '%, #1e1e1e 100%)';
-    document.getElementById('subtema13').style.background = 'linear-gradient(to right, #354ab4 0%, #354ab4 ' + subtema13 + '%, #1e1e1e ' + subtema13 + '%, #1e1e1e 100%)';
 }
 
 // Para el tema 2
